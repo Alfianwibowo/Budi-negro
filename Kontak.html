@@ -1,0 +1,50 @@
+<section>
+    <h2>Hubungi Kami</h2>
+    <p>Untuk informasi lebih lanjut atau pertanyaan, jangan ragu untuk menghubungi kami melalui formulir di bawah ini:</p>
+    <form action="#" method="post">
+        <label for="name">Nama:</label><br>
+        <input type="text" id="name" name="name" required><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br>
+        <label for="message">Pesan:</label><br>
+        <textarea id="message" name="message" rows="4" required></textarea><br>
+        <button type="submit">Kirim Pesan</button>
+        <p>or contact me</p>
+        <a href="">contact me</a>
+    </form>
+</section>
+
+<style>
+  form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+</style>
